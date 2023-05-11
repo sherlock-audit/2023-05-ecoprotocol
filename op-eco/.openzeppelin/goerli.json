@@ -1,0 +1,257 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xd5dA80EAfBE7b8ca14d160E2cF7409EA8CBC3388",
+    "txHash": "0xd6017f97b49e9ef05f50e3da64e59aab062c203d04e9d50691cb8fed920b623d"
+  },
+  "proxies": [
+    {
+      "address": "0x8F9A03eBd04B9239444Db72f3A4C3bad74B514FF",
+      "txHash": "0x6b26a025cd2cc249a657f55b5ad37f22b158acb4bcf563ff832bf943ff890c47",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x720f04d50EEE79BcdDB58796CC4C10a3cC6561ce",
+      "txHash": "0xad1cd7ca6490f271296775d990fa12b4475b354cae11f3f64e19f75374452dea",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xe13C329A9326298BF06cC2B97d41fe6D2cE6C35A",
+      "txHash": "0x1546548826332d22a4c63547a9db702968b32c30e9b985046d06a1a5b6ac7770",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x9F4d79347F2D7bf30723fffdfE65e436bAAF54D7",
+      "txHash": "0x44db64d41b2a1ea86fa15460ea050db8fdadf5e4986d98bc5c53501ac319ca52",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x61EC48a41cC1E589c935975b37039c9784C3c87d",
+      "txHash": "0xbcdf361793ac447d5ef54bbbc1bf80cd031630049f2f95bdbfadad4a18ad480f",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xaCb5cAd3baD250126E167915fc6Ec55821fB54C5",
+      "txHash": "0xf3c5ef3371640765250fed42b7cdd401712bde01b70034f7d92e6e4926e110fe",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xE67Ba63f6e39b47D0d102F221B6c5E0A634Bf23e",
+      "txHash": "0x8478fa8f386d1ffb1c63cdbea609a4a4fd94000663c3a067ba4c489d29c977d6",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xF3bA596814FCFbD1257f0c4b113ED1f7D52f89d7",
+      "txHash": "0xb238152b599cdb0150262ede1bd46cecfd73c0f3a1bd498bf81d1448a64edf33",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x3d57102C3b62B470e0E1E3F575715ff4f82BC1FE",
+      "txHash": "0x9d8de62faa9e407ec5964d4873264872bf80451db71143e04e64b2560c3d48b5",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "a8074166df3c2c956a6b46881f036e0bf35ddb80a3577199fa7a87532642cca1": {
+      "address": "0x544B7AE39080b64C84E927E7823De7F77512Ad4D",
+      "txHash": "0x5df87ab9edb621a939704494fc66b5f7f93cfa9903d54d31c2a1e55276765d76",
+      "layout": {
+        "solcVersion": "0.8.19",
+        "storage": [],
+        "types": {}
+      }
+    },
+    "96d2c1c133e1d1fba983d51f416c0e8da3308a1edc87f30c3dddb322f7977eca": {
+      "address": "0x9E64C1Dfd6Ebde261098ef4926a0fAcb90f13Aa8",
+      "txHash": "0x7d053f5a029fc33e6190e1d74e92b2d2230d1270f55d9df067a4b4ab98c3d7a9",
+      "layout": {
+        "solcVersion": "0.8.19",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "messenger",
+            "offset": 2,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "CrossDomainEnabledUpgradeable",
+            "src": "contracts/bridge/CrossDomainEnabledUpgradeable.sol:18"
+          },
+          {
+            "label": "l2TokenBridge",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_address",
+            "contract": "L1ECOBridge",
+            "src": "contracts/bridge/L1ECOBridge.sol:29"
+          },
+          {
+            "label": "ecoAddress",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_address",
+            "contract": "L1ECOBridge",
+            "src": "contracts/bridge/L1ECOBridge.sol:32"
+          },
+          {
+            "label": "l1ProxyAdmin",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_contract(ProxyAdmin)16811",
+            "contract": "L1ECOBridge",
+            "src": "contracts/bridge/L1ECOBridge.sol:37"
+          },
+          {
+            "label": "upgrader",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_address",
+            "contract": "L1ECOBridge",
+            "src": "contracts/bridge/L1ECOBridge.sol:40"
+          },
+          {
+            "label": "inflationMultiplier",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_uint256",
+            "contract": "L1ECOBridge",
+            "src": "contracts/bridge/L1ECOBridge.sol:43"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(ProxyAdmin)16811": {
+            "label": "contract ProxyAdmin",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "a9254f9a3eab0aac311bd059953149d817f1f7ec02641d6d53386e28bd164f78": {
+      "address": "0x0C6f219a90D80625609Ef9eFaB54270E12910061",
+      "txHash": "0x4221e74db11b243262705d9b044ccb58ba276a71b0271475481b7095d7de3eeb",
+      "layout": {
+        "solcVersion": "0.8.19",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "messenger",
+            "offset": 2,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "CrossDomainEnabledUpgradeable",
+            "src": "contracts/bridge/CrossDomainEnabledUpgradeable.sol:18"
+          },
+          {
+            "label": "l2TokenBridge",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_address",
+            "contract": "L1ECOBridge",
+            "src": "contracts/bridge/L1ECOBridge.sol:29"
+          },
+          {
+            "label": "ecoAddress",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_address",
+            "contract": "L1ECOBridge",
+            "src": "contracts/bridge/L1ECOBridge.sol:32"
+          },
+          {
+            "label": "l1ProxyAdmin",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_contract(ProxyAdmin)16811",
+            "contract": "L1ECOBridge",
+            "src": "contracts/bridge/L1ECOBridge.sol:37"
+          },
+          {
+            "label": "upgrader",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_address",
+            "contract": "L1ECOBridge",
+            "src": "contracts/bridge/L1ECOBridge.sol:40"
+          },
+          {
+            "label": "inflationMultiplier",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_uint256",
+            "contract": "L1ECOBridge",
+            "src": "contracts/bridge/L1ECOBridge.sol:43"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(ProxyAdmin)16811": {
+            "label": "contract ProxyAdmin",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}

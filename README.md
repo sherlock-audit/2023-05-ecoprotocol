@@ -1,5 +1,5 @@
 
-# [project name] contest details
+# Eco Protocol contest details
 
 - Join [Sherlock Discord](https://discord.gg/MABEWyASkp)
 - Submit findings using the issue page in your private contest repo (label issues as med or high)
@@ -50,7 +50,9 @@ EIP 712
 ___
 
 ### Q: Please list any known issues/acceptable risks that should not result in a valid finding.
-AMM (or any external contract) arbitrage due to rebasing is not a valid finding
+AMM (or any external contract) arbitrage due to rebasing is not a valid finding.
+
+The audit is meant to be focused heavily on High/Medium issues that affect L2ECOBridge.sol, L1ECOBridge.sol and L2ECO.sol. If there is a Medium issue found in ECO.sol but it does not affect the three contracts above, then it may not be considered in scope and rewarded. ECO.sol and other contracts were put in scope simply to allow Watsons to find any issues in those contracts that would also affect the main 3 contracts (L2ECOBridge.sol, L1ECOBridge.sol and L2ECO.sol).
 ___
 
 ### Q: Please provide links to previous audits (if any).

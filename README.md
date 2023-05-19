@@ -70,3 +70,15 @@ ___
 
 
 # Audit scope
+
+
+[op-eco @ 39f205fb46eea3df770f0119a890ffdc1ac8f382](https://github.com/eco-association/op-eco/tree/39f205fb46eea3df770f0119a890ffdc1ac8f382)
+- [op-eco/contracts/bridge/L2ECOBridge.sol](op-eco/contracts/bridge/L2ECOBridge.sol)
+- [op-eco/contracts/bridge/L1ECOBridge.sol](op-eco/contracts/bridge/L1ECOBridge.sol)
+- [op-eco/contracts/bridge/InitialBridge.sol](op-eco/contracts/bridge/InitialBridge.sol)
+- [op-eco/contracts/token/L2ECO.sol](op-eco/contracts/token/L2ECO.sol)
+- [op-eco/contracts/token/TokenInitial.sol](op-eco/contracts/token/TokenInitial.sol)
+- [op-eco/contracts/bridge/CrossDomainEnabledUpgradeable.sol](op-eco/contracts/bridge/CrossDomainEnabledUpgradeable.sol)
+- [op-eco/contracts/token/ERC20Upgradeable.sol](op-eco/contracts/token/ERC20Upgradeable.sol)
+
+

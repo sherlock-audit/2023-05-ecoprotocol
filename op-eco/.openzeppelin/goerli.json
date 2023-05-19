@@ -1,0 +1,121 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x95237a0eac53904F0B2e03986CF8F79736BFC2Bc",
+    "txHash": "0x6c6defe381c01ab1d68e3bd98a9cb2df2d1a53b8e62dd724524edc503abd59f2"
+  },
+  "proxies": [
+    {
+      "address": "0x7a01E277B8fDb8CDB2A2258508514716359f44A0",
+      "txHash": "0xed5635f1e8711e29b01d8150202ccc601672408af4e62790aee3c137f2b91227",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "a8074166df3c2c956a6b46881f036e0bf35ddb80a3577199fa7a87532642cca1": {
+      "address": "0x71EB138718a2C5182f4F8a689E061f388E701Fe8",
+      "txHash": "0x067491f9b5358cbfbb883a8fcb7aacd635b377b20545c213a8bbcc42155910ab",
+      "layout": {
+        "solcVersion": "0.8.19",
+        "storage": [],
+        "types": {}
+      }
+    },
+    "e9440f1e33a01b4343127318e9f0e34bd8b485e6f4d515176ba07d68eefd9567": {
+      "address": "0x54bBECeA38ff36D32323f8A754683C1F5433A89f",
+      "txHash": "0xdf23c96d715201efe933c5d1c2c813569008e1e4ba8806a337a0f285fe3c4468",
+      "layout": {
+        "solcVersion": "0.8.19",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "messenger",
+            "offset": 2,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "CrossDomainEnabledUpgradeable",
+            "src": "contracts/bridge/CrossDomainEnabledUpgradeable.sol:18"
+          },
+          {
+            "label": "l2TokenBridge",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_address",
+            "contract": "L1ECOBridge",
+            "src": "contracts/bridge/L1ECOBridge.sol:29"
+          },
+          {
+            "label": "ecoAddress",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_address",
+            "contract": "L1ECOBridge",
+            "src": "contracts/bridge/L1ECOBridge.sol:32"
+          },
+          {
+            "label": "l1ProxyAdmin",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_contract(ProxyAdmin)3695",
+            "contract": "L1ECOBridge",
+            "src": "contracts/bridge/L1ECOBridge.sol:37"
+          },
+          {
+            "label": "upgrader",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_address",
+            "contract": "L1ECOBridge",
+            "src": "contracts/bridge/L1ECOBridge.sol:40"
+          },
+          {
+            "label": "inflationMultiplier",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_uint256",
+            "contract": "L1ECOBridge",
+            "src": "contracts/bridge/L1ECOBridge.sol:43"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(ProxyAdmin)3695": {
+            "label": "contract ProxyAdmin",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}
